@@ -59,7 +59,7 @@ function forma(e) {
  return true;
 }
 function rregulloErrors(errs){
-	var str = "Ki error ne kete field: ";
+	var str = "Ke error ne kete field te caktuar: ";
 
 	errs.map((er) => {
 		er.el.classList.add('.error');

@@ -8,7 +8,7 @@ body {
         height: 600px;
         margin: 7em auto;
         border-radius: 1.5em;
-        box-shadow: 0px 11px 35px 2px #262626;
+        box-shadow: 0px 11px 35px 2px #4e4e4e;
     }
     .main h4{
         text-align: center;
@@ -23,7 +23,7 @@ body {
 
     .sign {
         padding-top: 40px;
-        color:  #2ea3f2;
+        color:  #ffac31;
         font-family: 'Ubuntu', sans-serif;
         font-weight: bold;
         font-size: 23px;
@@ -66,7 +66,7 @@ body {
          cursor: pointer;
         border-radius: 5em;
         color: #fff;
-         background: linear-gradient(to right, #2ea3f2,#F0F6F7FF);
+         background: linear-gradient(to right, #ffac31,#F0F6F7FF);
         border: 0;
         padding-left: 40px;
         padding-right: 40px;
