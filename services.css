@@ -5,7 +5,7 @@ body{
 	background-color:#FFF;
 }
 .container{
-	
+	background: #e6e3e3;
 	width: 80%;
 	margin: 0 auto;
 	overflow:hidden;
@@ -18,8 +18,7 @@ header ul{
 }
 
 header{
-	
-	background-color:#FFF;
+	background: #e6e3e3;
 	padding-top: 20px;
 	min-height: 70px;
 	
@@ -46,13 +45,6 @@ header #emri{
 
 	float: left;
 }
-
-header h1{
-	color: #2ea3f2;
-	margin: 0;
-	margin-top: 8px;	
-}
-
 header nav{
 	
 	float: right;
@@ -61,20 +53,17 @@ header nav{
 
 .container nav a:hover {
 
-	color: #ceda00;
+	color: #ffffff;
 }
 
-#emri h1:first-letter {
-	color: #ceda00;
-}
 
 .register{
   	color: #FFF;
-    border: 2px solid #2ea3f2;
+    border: 2px solid #9b9b9b;
     border-radius: 3px;
     padding: 2px 12px 2px 12px;
     margin-top: -3px;
-	background: #2ea3f2;	
+	
 	}
 .register a{
 	color: #FFF;
@@ -103,8 +92,8 @@ header nav{
 /*FOOTER*/
 
 #footer{
-	background-color: #262626;
-	color: #FFF;
+	background-color: #ffac31;
+	color: rgb(0, 0, 0);
 	width: 100%;
 	height: 250px;
 }
@@ -139,7 +128,8 @@ header nav{
 /*Fotoja background */
 
 .img1{
-	background: url(images/working5.webp) no-repeat 0 -550px;
+	/*background: url(images/working5.webp) no-repeat 0 -550px;*/
+	background: url(images/servicebackground2.png) no-repeat 0;
 	height: 450px;
 	width: 100%;
 	background-size: cover;
@@ -276,7 +266,7 @@ header nav{
 	justify-content: center;
 	padding: 15px;
 	border-radius: 10px;
-	background: url(images/working1.webp);
+	background: url(images/servicebackground4.png);
 	background-size: cover;
 	background-attachment: fixed;
 	margin:20px 5%;
@@ -331,6 +321,10 @@ header nav{
  /* Pajisje shumë të vogla (smart phones) */
 
 @media only screen and (min-width: 240px) and (max-width: 575px){
+.container{
+	width: 100%;
+}
+	
 
 .navbar ul{
 	display: flex;

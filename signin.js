@@ -14,7 +14,7 @@ function forma(e) {
  
  
  var pass = /^[A-Za-z]\w{7,14}$/;
- var nameReg = /^[a-zA-Z\-]+$/;
+ var nameReg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
  
  if (username.value == "") {
   errors.push({text: "username", el: username});
@@ -37,9 +37,11 @@ function forma(e) {
  	rregulloErrors(errors);
  	return false;
  }
- alert('SUBMITED');
+ alert("submited");
  return true;
+ 
 }
+
 function rregulloErrors(errs){
 	var str = "Ki error ne kete field: ";
 
